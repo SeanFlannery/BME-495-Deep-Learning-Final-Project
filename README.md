@@ -1,21 +1,18 @@
-# BME-495-Deep-Learning-Final-Project
+# Diabetic-Retinopathy
 
-# DentaNet
-A neural network that provides consumers an idea of what diseases
-or conditions they may be facing using just a snapshot of their teeth.
+# Diabetic-Retinopathy Classifier
+Take in public data of human eye scans, and determine whether or not
+someone is at risk of developing diabetic retinopathy or other severe
+eye issues.
 ## Team members
 Sean Flannery (SeanFlannery)
 ## Goals
-- Create a service where users may check in reasonable time what they may be at risk for
+- Achieve high accuracy classifying diabetic retinopathy risk
+- Beat top 10% of state-of-the-art classifiers using new neural network methods
 ## Challenges
 - Acquisition of data (https://github.com/beamandrew/medical-data)
-- Cropping user images appropriately so that they interface with NN properly
+  - Overcome thanks to Indian Diabetic Retinopathy Image Dataset (IDRiD)
+- Cropping user images appropriately so that they interface with NN properly (often the images are surrounded with black)
 ## Restrictions --optional--
-"I want to eat ice-cream if I pass." -- Not if you care about your dental health!
-
-
-
-
-
-
+"I want to eat ice-cream if I pass." -- Not if you care about your eyes (too much sugar)!
 
