@@ -14,5 +14,5 @@ Sean Flannery (SeanFlannery)
   - Overcome thanks to Indian Diabetic Retinopathy Image Dataset (IDRiD)
 - Cropping user images appropriately so that they interface with NN properly (often the images are surrounded with black)
 ## Restrictions --optional--
-"I want to eat ice-cream if I pass." -- Not if you care about your eyes (too much sugar)!
+"I want to eat ice-cream if I pass." -- Not if you care about your eyes!
 
