@@ -13,6 +13,8 @@ Sean Flannery (SeanFlannery)
 - Acquisition of data (https://github.com/beamandrew/medical-data)
   - Overcome thanks to Indian Diabetic Retinopathy Image Dataset (IDRiD)
 - Cropping user images appropriately so that they interface with NN properly (often the images are surrounded with black)
+## Acknowledgements
+- There was a fantastic kaggle competition based on the IDRiD, but I have chosen to do the image processing from scratch to gain a better understanding of relevant libraries
 ## Restrictions --optional--
 "I want to eat ice-cream if I pass." -- Not if you care about your eyes!
 
