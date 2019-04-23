@@ -18,3 +18,11 @@ Sean Flannery (SeanFlannery)
 ## Restrictions --optional--
 "I want to eat ice-cream if I pass." -- Not if you care about your eyes!
 
+## Results
+- Better than expected loss rates for ResNet50 transfer learning
+- Likely would have improved beyond 55% test accuracy on 5-class classification
+
+## ToDo
+- Augment data more
+- Acquire more data
+- Acquire more GPUs
