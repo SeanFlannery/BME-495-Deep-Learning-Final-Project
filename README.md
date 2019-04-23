@@ -1,6 +1,6 @@
 # Diabetic-Retinopathy
 
-# Diabetic-Retinopathy Classifier
+# Diabetic-Retinopathy Classifier (25 epochs, 55% validation, and likely to improve with time)
 Take in public data of human eye scans, and determine whether or not
 someone is at risk of developing diabetic retinopathy or other severe
 eye issues.
@@ -21,6 +21,7 @@ Sean Flannery (SeanFlannery)
 ## Results
 - Better than expected loss rates for ResNet50 transfer learning
 - Likely would have improved beyond 55% test accuracy on 5-class classification
+- All data sources, weights, and statistics may be found [here](https://drive.google.com/drive/folders/1qQuFN3QiyeFe-1V0zTeM_eJfRYRspEiB?usp=sharing) in the event that you'd like to expand on the training!
 
 ## ToDo
 - Augment data more
