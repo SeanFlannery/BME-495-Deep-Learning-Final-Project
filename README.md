@@ -1,7 +1,7 @@
 # Diabetic-Retinopathy
 [Video Description Here](https://www.youtube.com/watch?v=mDEfWfvOvLQ)
 
-# Diabetic-Retinopathy Classifier (25 epochs, 55% validation, and likely to improve with time)
+# Diabetic-Retinopathy Classifier (25 epochs, 62% validation, and likely to improve with more extensive pre-processing)
 Take in public data of human eye scans, and determine severity of diabetic retinopathy, which is likely to result in other medical problems related to the eye and possible blindness.
 ## Team members
 Sean Flannery (SeanFlannery)
