@@ -19,8 +19,7 @@ Sean Flannery (SeanFlannery)
 
 ## Results
 - Better than expected loss rates for ResNet50 transfer learning
-- Likely would have improved beyond 55% test accuracy on 5-class classification
-- All data sources, weights, and statistics may be found [here](https://drive.google.com/drive/folders/1qQuFN3QiyeFe-1V0zTeM_eJfRYRspEiB?usp=sharing) in the event that you'd like to expand on the training!
+- Likely would have improved beyond 62% test accuracy on 5-class classification
 
 ## ToDo
 - Augment data more
