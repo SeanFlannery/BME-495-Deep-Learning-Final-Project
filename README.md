@@ -1,5 +1,5 @@
 # Diabetic-Retinopathy
-[Video Description Here](https://www.youtube.com/watch?v=mDEfWfvOvLQ) (Note, this has been improved)
+[Video Description Here](https://www.youtube.com/watch?v=mDEfWfvOvLQ) (Note, this is for an older version of the model but is still applicable! Sorry for the poor quality, screen capture wasn't working.)
 
 # Diabetic-Retinopathy Classifier (25 epochs, 62% validation, and likely to improve with more extensive pre-processing)
 Take in public data of human eye scans, and determine severity of diabetic retinopathy, which is likely to result in other medical problems related to the eye and possible blindness.
@@ -18,10 +18,17 @@ Sean Flannery (SeanFlannery)
 "I want to eat ice-cream if I pass." -- Not if you care about your eyes!
 
 ## Results
+- Validation accuracy of 62% reaches top 10% of kaggle submissions on Diabetic-Retinopathy [Kaggle Competition](https://www.kaggle.com/c/diabetic-retinopathy-detection/leaderboard)
 - Better than expected loss rates for ResNet50 transfer learning
 - Likely would have improved beyond 62% test accuracy on 5-class classification
+- Noticed that due to the generation of random perturbations in the training data accuracy for training did not exceed testing epochs for quite a long time
+
+## Conclusions
+- Nothing beats more data, but doing random perturbations and disturbances can make a model generalize better
+- On relatively small dataset, determine if augmenting the data could work to improve validation accuracy!
 
 ## ToDo
-- Augment data more
-- Acquire more data
+- Augment data in different fashions (increase rotation degree, average by pixel)
+- Attempt to crop by black background to clean data
+- Acquire more data! 
 - Acquire more GPUs
